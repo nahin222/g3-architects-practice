@@ -184,6 +184,36 @@ main{
     
 }
 
+/*sponsors styles*/
+.sponsors{
+
+}
+
+.sponsor-title{
+    margin-top:11.26rem;
+    margin-bottom:1.5rem;
+    text-align:center;
+}
+
+.sponsor-desc{
+    width: 33.875rem;
+    line-height: 1.625rem;
+    margin:0 auto;
+}
+
+.sponsors-image-container{
+    display:flex;
+    filter: grayscale(100%);
+    justify-content: space-evenly;
+    margin-top:3.13rem;
+    margin-bottom:8.12rem;
+}
+
+.sponsors-image-container img{
+    width:11rem;
+    height:3.125rem;
+}
+
 /*responsive styles*/
 
 /*for mobile devices: ~576px*/
@@ -219,6 +249,16 @@ main{
     }
 
     .facts-card-container{
+        flex-direction: column;
+        align-items: center;
+        gap:2rem;
+    }
+
+    .sponsor-desc{
+        width:auto;
+    }
+    
+    .sponsors-image-container{
         flex-direction: column;
         align-items: center;
         gap:2rem;
@@ -263,8 +303,13 @@ main{
     
     .facts-card-container{
         flex-wrap: wrap;
-        margin-left:8rem;
+        margin-left:8.5rem;
         gap:2rem;
+    }
+
+    .sponsors-image-container{
+        gap:3rem;
+        flex-wrap:wrap;
     }
 
 
