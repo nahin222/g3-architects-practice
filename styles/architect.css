@@ -7,6 +7,14 @@
     font-family: 'Work Sans', sans-serif; 
 }
 
+.grey-text{
+    color:  #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+}
+
 .btn-primary{
     color: #FFF;
     text-align: center;
@@ -73,13 +81,7 @@ nav li a{
     font-weight: 700;
 }
 
-.banner-description{
-    color:  #727272;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.625rem; /* 162.5% */
-}
+
 
 .banner img{
     width:100%;
@@ -128,11 +130,8 @@ main{
 }
 
 .teams-content-desc{
-    color: #727272;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.625rem; /* 162.5% */
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 /*responsive styles*/
