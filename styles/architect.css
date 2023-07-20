@@ -1,6 +1,82 @@
 /*work sans font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap');
 
+/*shared styles*/
+
 *{
     font-family: 'Work Sans', sans-serif; 
 }
+
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    background: #FF900E;
+    padding: 1.31rem 1.5rem 1.25rem 1.56rem;
+    border:none;
+}
+
+/*header styles*/
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 3rem 15rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:#131313;
+    white-space: nowrap;
+}
+
+nav>ul{
+    display:flex;
+
+}
+
+
+nav li{
+    list-style: none;
+    margin-right: 2.25rem;
+    white-space: nowrap;
+    text-align: center; 
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/*banner styles*/
+.banner-content{
+    max-width:800px;
+    text-align: center;
+    margin:0 auto;    /*margin auto korle center e niye ashe?*/
+}
+
+.banner-title{
+    color: #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    color:  #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
+}
+
