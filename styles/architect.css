@@ -15,6 +15,13 @@
     line-height: 1.625rem; /* 162.5% */
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:#131313;
+    white-space: nowrap;
+}
+
 .btn-primary{
     color: #FFF;
     text-align: center;
@@ -39,12 +46,7 @@ nav{
     align-items:center;
 }
 
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color:#131313;
-    white-space: nowrap;
-}
+
 
 nav>ul{
     display:flex;
@@ -132,6 +134,54 @@ main{
 .teams-content-desc{
     margin-bottom: 2rem;
     text-align: left;
+}
+
+/*facts styles*/
+.facts-title{
+    margin:0;
+    margin-top:10.5rem;
+    margin-bottom:1.5rem;
+}
+
+.facts-desc{
+    width: 33.875rem;
+    text-align: left;
+    margin-bottom:6.26rem;
+}
+
+.facts-card-container>.card{
+    width: 15.11444rem;
+    height: 15.11444rem;
+    border-radius: 0.5rem;
+    border: 1px solid #FF900E;
+}
+
+.facts-card-container .card-image{
+     margin: 2.87rem 6.17rem 0.62rem 6.12rem; 
+}
+
+.facts-card-container .card-stats{
+    font-weight: 600;
+    text-align: center;
+    margin:0;
+    margin-bottom:0.31rem;
+}
+
+.facts-card-container .card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin:0;
+    margin-bottom:3.73rem;
+}
+    
+
+.facts-card-container{
+    display: flex;
+    gap:7.76rem;
+    margin-left: 1rem;
+    
 }
 
 /*responsive styles*/
