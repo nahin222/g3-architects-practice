@@ -214,6 +214,22 @@ main{
     height:3.125rem;
 }
 
+/*footer styles*/
+footer{
+    max-width:1440px;
+    margin:0 auto;
+    border-radius: 0.5rem;
+    background: #FFF4E7;
+    text-align: center;
+    padding-top:2.44rem;
+    padding-bottom: 2.38rem;
+    
+}
+
+.footer-text{
+    margin:0;
+}
+
 /*responsive styles*/
 
 /*for mobile devices: ~576px*/
@@ -263,6 +279,7 @@ main{
         align-items: center;
         gap:2rem;
     }
+
 
 }
 
