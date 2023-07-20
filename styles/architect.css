@@ -16,6 +16,7 @@
     background: #FF900E;
     padding: 1.31rem 1.5rem 1.25rem 1.56rem;
     border:none;
+    cursor: pointer;    /*cursor turns into a hand when hovering the button*/
 }
 
 /*header styles*/
@@ -80,3 +81,32 @@ nav li a{
     line-height: 1.625rem; /* 162.5% */
 }
 
+.banner img{
+    width:100%;
+    margin-top:3.12rem;
+}
+
+
+/*responsive styles*/
+
+/*for mobile devices: ~576px*/
+@media screen and (max-width:576px){
+    header{
+        padding: 1rem;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+/*for medium devices ie.tablets: 576px~960px*/
+@media screen and (min-width: 576px) and (max-width:960px){
+    header{
+        padding: 1rem;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+}
